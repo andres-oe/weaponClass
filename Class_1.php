@@ -9,13 +9,11 @@ class Arma {
     private $peso = 30;
 
     //Metodos de la clase.
-    public function cambiar_name($new_name) {
-        $this->name = $new_name;
-    }
 
 
 
-    
+
+
     public function disparar(){
         //Setter, ya que accedemos a una propiedad privada.
         if($this->puedo_disparar()){
