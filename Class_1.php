@@ -13,6 +13,9 @@ class Arma {
         $this->name = $new_name;
     }
 
+
+
+    
     public function disparar(){
         //Setter, ya que accedemos a una propiedad privada.
         if($this->puedo_disparar()){
